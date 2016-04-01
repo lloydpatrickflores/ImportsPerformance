@@ -61,14 +61,14 @@ public class ImportsPerformance {
             con = DriverManager.getConnection(DBURL, DBUSER, DBPASS);
             
             importsPerf.getDate();
-            //importsPerf.totalSalesMTD();
-            //importsPerf.importsTotalSalesMTD();
+            importsPerf.totalSalesMTD();
+            importsPerf.importsTotalSalesMTD();
             importsPerf.budgetTotalSalesMTD();
-            //importsPerf.budgetImportsSalesMTD();
-            //importsPerf.totalSalesQTD();
-            //importsPerf.importsTotalSalesQTD();
-            //importsPerf.totalSalesYTD();
-            //importsPerf.importsTotalSalesYTD();
+            importsPerf.budgetImportsSalesMTD();
+            importsPerf.totalSalesQTD();
+            importsPerf.importsTotalSalesQTD();
+            importsPerf.totalSalesYTD();
+            importsPerf.importsTotalSalesYTD();
            
 
            
